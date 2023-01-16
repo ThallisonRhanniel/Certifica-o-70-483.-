@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Parte 2\2 - Classes\" />
+  </ItemGroup>
+
 </Project>
