@@ -50,7 +50,7 @@ namespace ConsoleApp1._6___Estruturas_Definidas_pelo_Usuário
             return Latitude > 0;
         }
 
-        public override string Tostring()
+        public string Tostring()
         {
             return $"Latitude: {Latitude}, Longitude: {Longitude}";
         }
