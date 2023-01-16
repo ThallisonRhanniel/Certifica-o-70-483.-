@@ -13,7 +13,7 @@ namespace ConsoleApp1._2___Tipos_Inteiros
             int idade = 15;
             //idade = 15.5;
 
-            char resposta = 'S';// System.Char
+            char resposta = 'S'; // System.Char
 
             byte niveldeAzul = 0xF; // = 255 em decimal 
             //nivelDeAzul = -3
@@ -41,3 +41,4 @@ namespace ConsoleApp1._2___Tipos_Inteiros
 
         }
     }
+}
