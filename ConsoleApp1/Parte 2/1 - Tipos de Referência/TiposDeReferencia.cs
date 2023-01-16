@@ -18,7 +18,7 @@ namespace ConsoleApp1.Parte_2._1___Tipos_de_Referência
             Console.WriteLine("int idade = 42;");
             Console.WriteLine("int copiaIdade = idade;");
             Console.WriteLine($"idade: { idade} ");
-            Console.WriteLine($"copiaIdade: (copiaIdade}");
+            Console.WriteLine($"copiaIdade: {copiaIdade}");
 
             // código omitido
             
