@@ -57,5 +57,15 @@ namespace ConsoleApp1.Parte_3._4___Propriedades_Indexadas
                 Console.WriteLine($"{reserva.Key} - {reserva.Value}");
             }
         }
+        //var sala = new Sala();
+        //sala["D01"] = new ClienteCinema("Maria de Souza");
+        //sala["D02"] = new ClienteCinema("José da Silva");
+        public ClienteCinema this[string codigoAssento]
+        {
+            get { return reservas[codigoAssento]; }
+
+            set { reservas[codigoAssento] = value; }
+
+        }
     }
 }
