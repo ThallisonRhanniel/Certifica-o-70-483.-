@@ -14,7 +14,7 @@ namespace ConsoleApp1.Etapa_2.Parte_3._4___Adicionando_membros_dinamicamente
             string json = "{\"De\": \"Paulo Silveira\"," +
                           "\"Para\": \"Guilherme Silveira\"}";
 
-            dynamic mensagem = JsonConvert.DeserializeObject<ExpandoObject>(json);
+            dynamic mensagem = "";//JsonConvert.DeserializeObject<ExpandoObject>(json);
 
             mensagem.Texto = "Olá, " + mensagem.Para;
 
